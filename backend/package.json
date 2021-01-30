@@ -2,9 +2,9 @@
   "name": "Fig-It",
   "version": "1.0.0",
   "description": "A personnel project to learn new frameworks",
-  "main": "app.ts",
+  "main": "index.ts",
   "scripts": {
-    "start": "node src/app.ts"
+    "start": "node src/index.ts"
   },
   "repository": {
     "type": "git",
