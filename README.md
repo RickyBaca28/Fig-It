@@ -14,6 +14,6 @@ node app.ts
 
 ## Run frontend
 ```
-cd frontend` <br>
+cd frontend
 npm start
 ```
