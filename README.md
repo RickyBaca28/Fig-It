@@ -2,7 +2,7 @@
 A personnel project to learn new frameworks
 
 ## Run backend
-node app.ts
+`node app.ts`
 
 ## Run frontend
-npm start
+`npm start`
