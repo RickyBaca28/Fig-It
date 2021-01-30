@@ -1,10 +1,19 @@
 # Goal-Tracker
 A personnel project to learn new frameworks
 
+## How to run app
+```
+git clone https://github.com/RickyBaca28/Goal-Tracker.git
+cd Goal-Tracker
+```
 ## Run backend
-`npm install` <br>
-`node app.ts`
+```
+npm install
+node app.ts
+```
 
 ## Run frontend
-`cd frontend` <br>
-`npm start`
+```
+cd frontend` <br>
+npm start
+```
