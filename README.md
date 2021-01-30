@@ -1,4 +1,4 @@
-# Goal-Tracker
+# Fig-it
 A personnel project to practice web development and learn new frameworks/tools
 
 ## How to run app
