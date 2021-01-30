@@ -1,0 +1,26 @@
+{
+  "name": "Fig-It",
+  "version": "1.0.0",
+  "description": "A personnel project to learn new frameworks",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickyBaca28/Goal-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickyBaca28/Goal-Tracker/issues"
+  },
+  "homepage": "https://github.com/RickyBaca28/Goal-Tracker#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.22"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.3"
+  }
+}
