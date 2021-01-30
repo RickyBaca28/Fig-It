@@ -1,12 +1,12 @@
 # Fig-It
-(A personnel project to practice web development and learn new frameworks/tools)
-An all purpose trading website
+(A personnel project to practice web development and learn new frameworks/tools) <br>
+A soon to be all purpose trading website!
 
 ## Requirements
 Make sure the following are installed
 * node v12
 * npm 6.11.3
-* TODO: docker
+* docker
 
 ## How to run app
 ```
@@ -15,13 +15,15 @@ cd Fig-it
 ```
 ## Run backend
 ```
+npm ci
 npm install
-node app.ts
+npm run start
 ```
 
 ## Run frontend
 ```
 cd frontend
+npm ci
 npm install
 npm start
 ```
