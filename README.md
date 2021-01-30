@@ -4,8 +4,8 @@ An all purpose trading website
 
 ## How to run app
 ```
-git clone https://github.com/RickyBaca28/Goal-Tracker.git
-cd Goal-Tracker
+git clone https://github.com/RickyBaca28/Fig-It.git
+cd Fig-it
 ```
 ## Run backend
 ```
