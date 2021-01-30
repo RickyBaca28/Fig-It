@@ -1,5 +1,5 @@
 # Goal-Tracker
-A personnel project to learn new frameworks
+A personnel project to practice web development and learn new frameworks/tools
 
 ## How to run app
 ```
