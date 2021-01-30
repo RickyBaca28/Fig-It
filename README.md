@@ -1,4 +1,4 @@
-# Fig-it
+# Fig-It
 (A personnel project to practice web development and learn new frameworks/tools)
 An all purpose trading website
 
