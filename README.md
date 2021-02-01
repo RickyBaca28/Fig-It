@@ -15,6 +15,10 @@ cd Fig-it
 ```
 ## Run backend
 ```
+cd backend
+docker run --name mongodb bitnami/mongodb:latest
+curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-mongodb/master/docker-compose.yml > docker-compose.yml
+docker-compose up -d
 npm ci
 npm install
 npm run start
