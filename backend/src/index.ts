@@ -13,8 +13,8 @@
 //   console.log(`Server running at http://${hostname}:${port}/`);
 // });
 
-const yargs = require('yargs/yargs')
-const Backend = require('./backend');
+import yargs from 'yargs';
+import Backend from './backend';
 // import Backend from './backend';
 
 const { argv } = yargs.options({ 
