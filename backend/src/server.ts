@@ -1,19 +1,24 @@
 import express from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
 import { Server as HttpServer } from 'http';
 import cookieParser from 'cookie-parser';
+import apiRoutes from './routes/index';
 
 export const app = express();
 const http: HttpServer = new HttpServer(app);
 
 app.use(cookieParser());
 
+app.use(cors());
+app.use(bodyParser.json({ limit: '50mb' }));
+
 //
 // --- ROUTE SETUP ----------------------------------------------------------------
 //
 
-// api routes
-app.get('/', function(req, res) {
-    res.send('Welcome to Fig-It backend!');
+app.use('/api', apiRoutes, (req) => {
+    throw new Error(`API route ${req.path} could not be found`);
 });
 
 
@@ -36,7 +41,7 @@ export default class Server {
             return new Promise((resolve: any, reject: any): void => {
                 this.httpServer = http.listen(this.port, () => {
                     console.log(`web server listening on port ${this.port}`);
-                    console.log(`Go to http://localhost:7777`);
+                    console.log(`Use prefix http://localhost:7777/api/v1`);
                     resolve();
                 });
 
