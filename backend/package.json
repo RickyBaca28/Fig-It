@@ -1,0 +1,42 @@
+{
+  "name": "Fig-It",
+  "version": "1.0.0",
+  "description": "A personnel project to learn new frameworks",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node src/index.ts",
+    "dev": "ts-node-dev --inspect=0.0.0.0:9229 --respawn  --no-notify ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickyBaca28/Goal-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickyBaca28/Goal-Tracker/issues"
+  },
+  "homepage": "https://github.com/RickyBaca28/Goal-Tracker#readme",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.22",
+    "@types/yargs": "^16.0.0",
+    "node-notifier": "^9.0.0",
+    "ts-loader": "8.0.2",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "3.9.7"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.14",
+    "node": "^15.7.0",
+    "yargs": "^16.2.0"
+  }
+}
