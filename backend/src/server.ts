@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 // api routes
 app.get('/', function(req, res) {
-    res.send('Hello World');
+    res.send('Welcome to Fig-It backend!');
 });
 
 
@@ -36,6 +36,7 @@ export default class Server {
             return new Promise((resolve: any, reject: any): void => {
                 this.httpServer = http.listen(this.port, () => {
                     console.log(`web server listening on port ${this.port}`);
+                    console.log(`Go to http://localhost:7777`);
                     resolve();
                 });
 

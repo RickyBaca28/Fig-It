@@ -17,6 +17,7 @@ class Database {
     async connect(): Promise<void> {
         try {
             console.log('Attempting to connect MongoDB!');
+            console.log('dbUrl:', this.dbUrl);
             this.db = await mongoose.connect(this.dbUrl);
         } catch (err) {
             throw new Error('Unable to connect to mongo database, check to see if docker image is running');

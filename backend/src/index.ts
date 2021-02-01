@@ -29,8 +29,8 @@ d: { alias: 'db-url', type: 'string', desc: 'Mongo database url' },
 require('dotenv').config();
 
 const backend = new Backend(
-  argv.a,
-  argv.d,
+  argv.a ?? process.env.API_PORT,
+  argv.d?? process.env.DB_URL,
 );
 
 //
