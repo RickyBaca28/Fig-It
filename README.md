@@ -3,7 +3,7 @@
 A soon to be all purpose trading website!
 
 ## Requirements
-Make sure the following are installed
+Make sure the following are installed!
 * node v12
 * npm 6.11.3
 * docker
@@ -15,19 +15,17 @@ cd Fig-it
 ```
 ## Run backend
 ```
-cd backend
 docker run --name mongodb bitnami/mongodb:latest
 curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-mongodb/master/docker-compose.yml > docker-compose.yml
 docker-compose up -d
+cd backend
 npm ci
-npm install
-npm run start
+npm run dev
 ```
 
 ## Run frontend
 ```
 cd frontend
 npm ci
-npm install
 npm start
 ```
