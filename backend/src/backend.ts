@@ -3,11 +3,10 @@ import Database from './db';
 import Logger from './utils/logger';
 
 import { parseOrDefault } from './utils/backend.utils';
-import { loggers } from 'winston';
 
 
 export const DEFAULT_API_PORT = 3001;
-const logger = Logger.child({ label: 'fig-it:api:db.ts' });
+const logger = Logger.child({ label: 'fig-it:api:backend.ts' });
 
 class Backend {
     private server: Server;
