@@ -23,7 +23,6 @@ class Backend {
     }
 
     async start(): Promise<void> {
-        //keep as console.log
         console.log(`
         ╭━━━╮╱╱╱╱╱╭━━┳╮
         ┃╭━━╯╱╱╱╱╱╰┫┣╯╰╮

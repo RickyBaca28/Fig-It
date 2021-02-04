@@ -7,7 +7,7 @@ import cookieParser from 'cookie-parser';
 import apiRoutes from './routes/index';
 
 export const app = express();
-const logger = Logger.child({ label: 'fig-it:api:db.ts' });
+const logger = Logger.child({ label: 'fig-it:api:server.ts' });
 
 const http: HttpServer = new HttpServer(app);
 

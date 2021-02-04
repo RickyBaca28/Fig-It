@@ -2,7 +2,7 @@ import yargs from 'yargs';
 import Logger from './utils/logger';
 import Backend from './backend';
 
-const logger = Logger.child({ label: 'fig-it:api:db.ts' });
+const logger = Logger.child({ label: 'fig-it:api:index.ts' });
 const { argv } = yargs.options({ 
 a: { alias: 'api-port', type: 'number', desc: 'Port to start the API server on' },
 d: { alias: 'db-url', type: 'string', desc: 'Mongo database url' },
