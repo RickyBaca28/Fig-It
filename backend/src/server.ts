@@ -1,11 +1,14 @@
 import express from 'express';
 import cors from 'cors';
+import Logger from './utils/logger';
 import bodyParser from 'body-parser';
 import { Server as HttpServer } from 'http';
 import cookieParser from 'cookie-parser';
 import apiRoutes from './routes/index';
 
 export const app = express();
+const logger = Logger.child({ label: 'fig-it:api:db.ts' });
+
 const http: HttpServer = new HttpServer(app);
 
 app.use(cookieParser());
@@ -40,8 +43,8 @@ export default class Server {
         if(this.httpServer === null) {
             return new Promise((resolve: any, reject: any): void => {
                 this.httpServer = http.listen(this.port, () => {
-                    console.log(`web server listening on port ${this.port}`);
-                    console.log(`Use prefix http://localhost:7777/api/v1`);
+                    logger.info(`web server listening on port ${this.port}`);
+                    logger.info(`Use prefix http://localhost:7777/api/v1`);
                     resolve();
                 });
 
