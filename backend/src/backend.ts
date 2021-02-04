@@ -1,9 +1,12 @@
 import Server from './server';
 import Database from './db';
+import Logger from './utils/logger';
+
 import { parseOrDefault } from './utils/backend.utils';
 
 
 export const DEFAULT_API_PORT = 3001;
+const logger = Logger.child({ label: 'fig-it:api:backend.ts' });
 
 class Backend {
     private server: Server;
@@ -33,28 +36,28 @@ class Backend {
         try {
             await this.db.connect();
         } catch (err) {
-            console.log('Could not initialize DB, exiting..', err);
+            logger.info('Could not initialize DB, exiting..', err);
             return;
         }
 
         try {
             await this.server.start();
         } catch (err) {
-            console.log(`Could not start webserver -- Reason: ${err.message}`);
+            logger.info(`Could not start webserver -- Reason: ${err.message}`);
         }
     }
 
     async stop(): Promise<void> {
-        console.log('Stopping Fig-It, exiting...');
+        logger.info('Stopping Fig-It, exiting...');
         try{
             await this.server.stop();
         } catch (err) {
-            console.log('', err);
+            logger.info('', err);
         }
         try {
             await this.db.close();
         } catch (err) {
-            console.log('', err);
+            logger.info('', err);
         }
     }
 }

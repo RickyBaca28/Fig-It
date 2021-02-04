@@ -1,6 +1,8 @@
 import yargs from 'yargs';
+import Logger from './utils/logger';
 import Backend from './backend';
 
+const logger = Logger.child({ label: 'fig-it:api:index.ts' });
 const { argv } = yargs.options({ 
 a: { alias: 'api-port', type: 'number', desc: 'Port to start the API server on' },
 d: { alias: 'db-url', type: 'string', desc: 'Mongo database url' },
@@ -30,11 +32,11 @@ backend.start();
 process.on(
   'SIGINT',
   async (): Promise<void> => {
-    console.log('Received SIGINT from system');
+    logger.info('Received SIGINT from system');
     try {
       await backend.stop();
     } catch (err) {
-      console.log(`${err.message}`);
+      logger.info(`${err.message}`);
     }
     process.exit();
   },
@@ -43,13 +45,13 @@ process.on(
 process.on(
   'SIGTERM',
   async (): Promise<void> => {
-    console.log('Received SIGTERM from system');
+    logger.info('Received SIGTERM from system');
     try {
       await backend.stop();
     } catch (err) {
-      console.log(`${err.message}`);
+      logger.info(`${err.message}`);
     }
-    console.log('nodemon restart...');
+    logger.info('nodemon restart...');
       process.exit();
   },
 );

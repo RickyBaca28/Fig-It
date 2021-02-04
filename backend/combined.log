@@ -1,0 +1,19 @@
+{"label":"fig-it:api:mongo","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:mongo","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:mongo","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:mongo","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:mongo","message":"Pizza time!","level":"info","service":"user-service"}
+{"label":"fig-it:api:mongo","message":"Pizza time!","level":"info","service":"user-service"}
+{"label":"fig-it:api:mongo","message":"Pizza time!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}

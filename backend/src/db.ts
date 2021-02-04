@@ -1,4 +1,7 @@
 import mongoose, { Mongoose } from 'mongoose';
+import Logger from './utils/logger';
+
+const logger = Logger.child({ label: 'fig-it:api:db.ts' });
 
 class Database {
     private db: Mongoose;
@@ -16,23 +19,23 @@ class Database {
 
     async connect(): Promise<void> {
         try {
-            console.log('Attempting to connect MongoDB!');
-            console.log('dbUrl:', this.dbUrl);
+            logger.info('Attempting to connect MongoDB!');
+            logger.info('dbUrl:', this.dbUrl);
             this.db = await mongoose.connect(this.dbUrl);
         } catch (err) {
             throw new Error('Unable to connect to mongo database, check to see if docker image is running');
         }
-        console.log('Connected to MongoDB!');
+        logger.info('Connected to MongoDB!');
     }
 
     async close(): Promise<void> {
         try {
             if(this.db) {
                 await this.db.disconnect();
-                console.log('Closed connection to MongoDB');
+                logger.info('Closed connection to MongoDB');
             }
         } catch (err) {
-            console.log(`Can't close connection to MongoDB`);
+            logger.info(`Can't close connection to MongoDB`);
         }
     }
 }
