@@ -2,13 +2,13 @@ import ItemModel, { IItem, IItemDocument } from '../models/item';
 
 // gets a global list of every item
 export const getItemList = async (): Promise<IItem[]> => {
-const items: IItemDocument[] = await ItemModel.find({}).exec();
+    const items: IItemDocument[] = await ItemModel.find({}).exec();
 
-return items.map(
-    (item: IItemDocument): IItem => {
-        return item.toObject();
-    },
-);
+    return items.map(
+        (item: IItemDocument): IItem => {
+            return item.toObject();
+        },
+    );
 };
 
 // gets an items info by its id

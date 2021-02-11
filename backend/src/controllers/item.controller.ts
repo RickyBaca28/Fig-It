@@ -14,17 +14,17 @@ export const getItemList = asyncHandler(
 // gets an items info based of its id
 export const getItemInfo = asyncHandler(
     async (req: Request, res: Response): Promise<void> => {
-        
+
         const item: IItem = await itemService.getItemInfo(req.params.id);
         res.status(200).send(item);
     },
 );
 
 export const createItem = asyncHandler(
-    async(req: Request, res: Response): Promise<void> => {
+    async (req: Request, res: Response): Promise<void> => {
         const { body } = req;
 
-        const item = await itemService.createActivity(body);
+        const item = await itemService.createItem(body);
         res.status(200).send(item);
     },
 );
