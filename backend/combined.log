@@ -17,3 +17,43 @@
 {"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
 {"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
 {"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"web server listening on port 7777","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"Use prefix http://localhost:7777/api/v1","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"web server listening on port 7777","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"Use prefix http://localhost:7777/api/v1","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"web server listening on port 7777","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"Use prefix http://localhost:7777/api/v1","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"web server listening on port 7777","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"Use prefix http://localhost:7777/api/v1","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"web server listening on port 7777","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"Use prefix http://localhost:7777/api/v1","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"web server listening on port 7777","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"Use prefix http://localhost:7777/api/v1","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"web server listening on port 7777","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"Use prefix http://localhost:7777/api/v1","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","message":"Attempting to connect MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:db.ts","service":"user-service","level":"info","message":"dbUrl:"}
+{"label":"fig-it:api:db.ts","message":"Connected to MongoDB!","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"web server listening on port 7777","level":"info","service":"user-service"}
+{"label":"fig-it:api:server.ts","message":"Use prefix http://localhost:7777/api/v1","level":"info","service":"user-service"}

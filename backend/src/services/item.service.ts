@@ -12,7 +12,8 @@ export const getItemInfo = (itemId: string): Promise<IItem> => {
 };
 
 // adds an item 
-export const createActivity = (payload: any): Promise<IItem> => {
-return db.createItem(payload);
+export const createItem = (payload: any): Promise<IItem> => {
+    payload.date = new Date();
+    return db.createItem(payload);
 };
 
