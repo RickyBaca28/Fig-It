@@ -17,7 +17,7 @@ export const getUser = async (userId: string): Promise<IUser> => {
     return user;
 };
 
-// adds an item to the db
+// adds user to the db
 export const createUser = async (payload: any): Promise<IUser> => {
     const user = new UserModel(payload);
     const savedUser = await user.save();
