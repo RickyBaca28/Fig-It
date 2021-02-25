@@ -12,7 +12,7 @@ export const getUser = (userId: string): Promise<IUser> => {
 };
 
 // adds an user 
-export const createItem = (payload: any): Promise<IUser> => {
+export const createUser = (payload: any): Promise<IUser> => {
     payload.date = new Date();
     return db.createUser(payload);
 };
