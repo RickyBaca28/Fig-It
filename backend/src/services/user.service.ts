@@ -7,8 +7,8 @@ export const getUserList = (): Promise<IUser[]> => {
 };
 
 // gets user from specific user id
-export const getUser = (userId: string): Promise<IUser> => {
-    return db.getUser(userId);
+export const getUser = (username: string): Promise<IUser> => {
+    return db.getUser(username);
 };
 
 // adds an user 
