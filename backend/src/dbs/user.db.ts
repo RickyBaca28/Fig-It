@@ -13,7 +13,7 @@ export const getUserList = async (): Promise<IUser[]> => {
 
 // gets user's info by its id
 export const getUser = async (username: string): Promise<IUser> => {
-    const user: IUserDocument = await UserModel.findOne({ username: username }).exec();
+    const user: IUserDocument = await UserModel.findOne({ username }).exec();
     return user;
 };
 
